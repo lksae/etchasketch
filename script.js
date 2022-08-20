@@ -1,9 +1,9 @@
 let generalAmount = 4;
 
-/*function makeBlack(){
-    flexItem.classList.add('black');
+function makeBlack(){
+    this.style.backgroundColor = '#000000';
 }
-
+/*
 function makeNormal(){
     flexItem.classList.remove('black');
 }*/
@@ -37,8 +37,13 @@ function draw(amount) {
     const flexCollection = document.querySelectorAll(".flexItem");
     flexCollection.forEach(flexI => flexI.style.height= `${heightAndWidth}px`);//setAttribute("style","width:60px"));
     flexCollection.forEach(flexI => flexI.style.width= `${heightAndWidth}px`);//setAttribute("style","height:60px"));
+    const flexPixelGrid = document.querySelectorAll(".flexItem");
+    flexPixelGrid.forEach(flexPixel => flexPixel.addEventListener("mouseover", makeBlack));
 
 }
+
+
+
 const btn = document.querySelector('#new');
 btn.addEventListener('click', () => {
   let userInput = prompt("How many squares do you want?")
