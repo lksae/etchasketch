@@ -5,8 +5,8 @@ div {
 }
 
 .flexItem {
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
     border: black 1px solid;
 }
 
@@ -23,3 +23,10 @@ body {
     
 }
 
+.black {
+    background-color: black;
+}
+
+.flexItem:hover {
+    background-color: black;;
+}
