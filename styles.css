@@ -1,0 +1,22 @@
+div {
+    border: black 1px solid;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
