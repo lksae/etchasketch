@@ -1,22 +1,25 @@
 div {
-    border: black 1px solid;
     
+    
+    
+}
+
+.flexItem {
+    width: 48px;
+    height: 48px;
+    border: black 1px solid;
 }
 
 .flex {
     display: flex;
-    justify-content: space-evenly;
+    
     
 }
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
